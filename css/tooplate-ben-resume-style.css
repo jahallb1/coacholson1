@@ -310,8 +310,9 @@ https://www.tooplate.com/view/2120-ben-resume
     color: var(--white-color);
     display: inline-block;
     margin: 0.5rem 0;
-    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 	  font-size: 2.2em;
+    line-height: 2.2em;
+    padding: 0EM 2EM
   }
 
   .email-link {
@@ -580,6 +581,7 @@ https://www.tooplate.com/view/2120-ben-resume
     .hero-title {
       font-size: 1.8em;
       padding-bottom: 1rem;
+      
     }
 
     .email-link {
