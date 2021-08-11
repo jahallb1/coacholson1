@@ -548,6 +548,14 @@ https://www.tooplate.com/view/2120-ben-resume
     color: var(--dark-color);
   }
 
+  .discount {
+    margin-top: 3rem;
+  }
+
+  .services {
+    margin-top: 1.5rem;
+  }
+
 
   /*---------------------------------------
      RESPONSIVE STYLES              
@@ -562,9 +570,11 @@ https://www.tooplate.com/view/2120-ben-resume
         font-size: 36px;
     }
 
-    h3 {
+    .consulation, .day30, .day90, h3 {
         font-size: 32px;
+        padding-top: 18px;
     }
+   
 
     h4 {
         font-size: 28px;
@@ -573,6 +583,8 @@ https://www.tooplate.com/view/2120-ben-resume
     .email-link {
       font-size: 28px;
     }
+
+    
   }
 
   @media screen and (max-width: 992px) {
@@ -587,6 +599,16 @@ https://www.tooplate.com/view/2120-ben-resume
       font-size: 22px;
       padding: 0.5rem 2rem 0.7rem 2rem;
     }
+
+    .services {
+      padding: 0;
+      margin: 0;
+    }
+
+    .discount {
+      margin-top: 1rem;
+    }
+
   }
 
   @media screen and (max-width: 991px) {
